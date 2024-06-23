@@ -1,5 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>做一条随心所欲的鱼</title><link>https://lao-mu-ji.github.io/breathless.github.io</link><description>只是随便试试罢了</description><copyright>做一条随心所欲的鱼</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://p.qqan.com/up/2021-3/16164672111465100.jpg</url><title>avatar</title><link>https://lao-mu-ji.github.io/breathless.github.io</link></image><lastBuildDate>Sun, 23 Jun 2024 12:44:40 +0000</lastBuildDate><managingEditor>做一条随心所欲的鱼</managingEditor><ttl>60</ttl><webMaster>做一条随心所欲的鱼</webMaster><item><title>奥的表4</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-4.html</link><description># 天之骄子奥德彪，二八大杠拉香蕉&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>做一条随心所欲的鱼</title><link>https://lao-mu-ji.github.io/breathless.github.io</link><description>只是随便试试罢了</description><copyright>做一条随心所欲的鱼</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://p.qqan.com/up/2021-3/16164672111465100.jpg</url><title>avatar</title><link>https://lao-mu-ji.github.io/breathless.github.io</link></image><lastBuildDate>Sun, 23 Jun 2024 14:43:13 +0000</lastBuildDate><managingEditor>做一条随心所欲的鱼</managingEditor><ttl>60</ttl><webMaster>做一条随心所欲的鱼</webMaster><item><title>尝试一下代码</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/chang-shi-yi-xia-dai-ma.html</link><description>## 这是一段代码&#13;
+```&#13;
+if __name__ == '__main__':&#13;
+    parser = argparse.ArgumentParser()&#13;
+    parser.add_argument('--gpus', type=str, default='', help='use gpus (passed to CUDA_VISIBLE_DEVICES)')&#13;
+    parser.add_argument('--model', required=False, type=str, default=None, help='name of the model')&#13;
+    parser.add_argument('--weights', required=False, type=str, default='VBx\\models\\ResNet101_16kHz\\nnet\\final.onnx', help='path to pretrained model weights')&#13;
+    parser.add_argument('--model-file', required=False, type=str, default=None, help='path to model file')&#13;
+    parser.add_argument('--ndim', required=False, type=int, default=64, help='dimensionality of features')&#13;
+    parser.add_argument('--embed-dim', required=False, type=int, default=256, help='dimensionality of the emb')&#13;
+    parser.add_argument('--seg-len', required=False, type=int, default=144, help='segment length')&#13;
+    parser.add_argument('--seg-jump', required=False, type=int, default=24, help='segment jump')&#13;
+    parser.add_argument('--in-file-list', required=False, type=str, default='D:\\Morin\\Desktop\\temp\\VBx\\list.txt',help='input list of files')&#13;
+    parser.add_argument('--in-lab-dir', required=False, type=str,default='D:\\Morin\\Desktop\\temp\\VBx\\example\\vad', help='input directory with VAD labels')&#13;
+    parser.add_argument('--in-wav-dir', required=False, type=str,default='D:\\Morin\\Desktop\\temp\\VBx\\example\\audios\\test', help='input directory with wavs')&#13;
+    parser.add_argument('--out-ark-fn', required=False, type=str,default='D:\\Morin\\Desktop\\temp\\VBx\\exp\\test.ark', help='output embedding file')&#13;
+    parser.add_argument('--out-seg-fn', required=False, type=str,default='D:\\Morin\\Desktop\\temp\\VBx\\exp\\test.seg', help='output segments file')&#13;
+    parser.add_argument('--backend', required=False, default='onnx', choices=['pytorch', 'onnx'],&#13;
+                        help='backend that is used for x-vector extraction')&#13;
+&#13;
+    args = parser.parse_args()&#13;
+```&#13;
+这段代码的功能是处理输入的参数。</description><guid isPermaLink="true">https://lao-mu-ji.github.io/breathless.github.io/post/chang-shi-yi-xia-dai-ma.html</guid><pubDate>Sun, 23 Jun 2024 14:42:50 +0000</pubDate></item><item><title>奥的表4</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-4.html</link><description># 天之骄子奥德彪，二八大杠拉香蕉&#13;
 很早就看过奥德彪拉香蕉的视频，但是如此优秀的文案还是第一次见，所以下面把视频中的文案记录了下来，诙谐幽默。</description><guid isPermaLink="true">https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-4.html</guid><pubDate>Sun, 23 Jun 2024 12:29:56 +0000</pubDate></item><item><title>奥的表3</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-3.html</link><description># 天之骄子奥德彪，二八大杠拉香蕉&#13;
 很早就看过奥德彪拉香蕉的视频，但是如此优秀的文案还是第一次见，所以下面把视频中的文案记录了下来，诙谐幽默。</description><guid isPermaLink="true">https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-3.html</guid><pubDate>Sun, 23 Jun 2024 12:23:02 +0000</pubDate></item><item><title>奥的表1</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-1.html</link><description>天之骄子奥德彪，二八大杠拉香蕉&#13;
 很早就看过奥德彪拉香蕉的视频，但是如此优秀的文案还是第一次见，所以下面把视频中的文案记录了下来，诙谐幽默。</description><guid isPermaLink="true">https://lao-mu-ji.github.io/breathless.github.io/post/ao-de-biao-1.html</guid><pubDate>Sun, 23 Jun 2024 11:44:13 +0000</pubDate></item><item><title>尝试插入图片</title><link>https://lao-mu-ji.github.io/breathless.github.io/post/chang-shi-cha-ru-tu-pian.html</link><description>![img](https://tse3-mm.cn.bing.net/th/id/OIP-C.P8ouwWVpvZWrCvp-El5jrAHaE6?rs=1&amp;pid=ImgDetMain)&#13;
